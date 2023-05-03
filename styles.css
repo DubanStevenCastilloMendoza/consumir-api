@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+.cart{
+    width: 550px;
+    display: flex;
+    background-color: #ddd;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px #999;
+    gap: 10px;
+}
+.cart img{
+    width: 200px;
+    height: 200px;
+}
